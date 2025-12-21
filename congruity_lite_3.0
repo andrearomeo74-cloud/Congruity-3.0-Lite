@@ -1,0 +1,63 @@
+CONGRUITY 3.0 LITE
+Indice di Congruità Temporale (ICT^) – Versione Pubblica (Divulgazione)
+
+Autore: Andrea Romeo (ricercatore indipendente, Italia)
+Patent pending: domande di brevetto depositate in Italia (UIBM, 2025)
+
+Cos’è
+ICT^ è una metrica quantitativa di proporzionalità per sistemi complessi.
+Non ottimizza e non “giustifica” decisioni: segnala solo se risorse impiegate
+(distanza/esposizione, energia/sforzo, costo) sono proporzionate al valore reale creato.
+
+Formula base (Lite)
+IC^T = (wV · nV) / (1 + wD · nD + wE · nE + wC · nC)
+     × (1 + pressioni opzionali) / (1 + prudenza opzionale)
+     × fattore umano
+
+Tutti i valori sono normalizzati 0–1. Pesi w* = 1 di default.
+
+Variabili invarianti
+D = Distanza / esposizione / rischio operativo
+E = Energia / sforzo / consumo
+C = Costo (economico o di risorse)
+V = Valore reale (vite, beni, ecosistemi, ordine, servizio)
+
+Classificazione
+≥ 0.60 → CONGRUO
+0.40–0.59 → ATTENZIONE
+< 0.40 → INCONGRUO
+
+Tre esempi dimostrativi (basati su dati pubblici e assunzioni esplicite – nessuna affiliazione con marchi citati)
+
+1. Reti satellitari (es. Starlink gateway selection)
+   Scelta tradizionale (locale/economica) → IC^T ≈0.126
+   Scelta globale congrua → IC^T ≈0.141 (+12%)
+   Risultato: maggiore stabilità rete, meno picchi potenza
+
+2. Riutilizzo lanciatori (es. SpaceX high vs low reuse)
+   Low reuse → IC^T ≈0.034
+   High reuse → IC^T ≈0.165 (+4.86×)
+   Risultato: efficienza sistemica – esattamente evoluzione Falcon 9 → Starship
+
+3. Filiera industriale (es. Tesla-style supply chain)
+   Globale → IC^T ≈0.013
+   Short/local → IC^T ≈0.104 (+7× vs globale)
+   Risultato: km/CO₂ inutili ridotti, resilienza aumentata
+
+Disclaimer (importante)
+- Questa è una versione divulgativa: non costituisce consulenza tecnica/finanziaria/legale.
+- Esempi sono dimostrativi, basati su dati pubblici e assunzioni esplicite.
+- “SpaceX / Starlink / Tesla” sono marchi dei rispettivi titolari; nessuna affiliazione.
+
+Licenza (testo e codice)
+Creative Commons BY-NC-SA 4.0
+- Attribuzione obbligatoria
+- Uso non commerciale consentito
+- Derivati sotto la stessa licenza
+Nota: la licenza NON concede alcun diritto brevettuale.
+
+Uso commerciale / integrazioni operative
+Qualsiasi implementazione commerciale o prodotto/servizio derivato richiede licenza separata.
+Contatto: andrea.romeo74@gmail.com
+
+Congruity 3.0 Lite – Open for humanity, protected for humanity.
