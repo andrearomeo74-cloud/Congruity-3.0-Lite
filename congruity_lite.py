@@ -1,6 +1,6 @@
-# Congruity 3.0 Lite - Public Version (Divulgazione)
+# Congruity 3.0 Lite - Public Version (Educational / Non-Commercial)
 # Author: Andrea Romeo
-# License: CC BY-NC-SA 4.0 (testo/codice) - NO COMMERCIAL USE
+# License: CC BY-NC-SA 4.0 (text/code) - NO COMMERCIAL USE
 # Note: This license does NOT grant any patent rights. Patent pending (UIBM, 2025).
 
 import math
@@ -10,8 +10,8 @@ def clamp01(x: float) -> float:
     return max(0.0, min(1.0, float(x)))
 
 def normalize_log(x: float, scale: float = 100.0) -> float:
-    """Normalizza in 0-1 con log1p; robusto per range ampi.
-    x < 0 viene trattato come 0."""
+    """Normalize to 0–1 using log1p; robust for wide ranges.
+    x < 0 is treated as 0."""
     x = max(0.0, float(x))
     scale = max(1.0, float(scale))
     return math.log1p(x) / math.log1p(scale)
